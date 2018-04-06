@@ -23,8 +23,9 @@ public class FileUploadController {
     @Autowired
     private FileUploadHelper fileUploadHelper;
 
+    //web测试上传页面
     @RequestMapping
-    public ModelAndView welcome() {
+    public ModelAndView test() {
         return new ModelAndView("/file");
     }
 
