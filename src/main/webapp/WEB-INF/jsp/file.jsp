@@ -19,7 +19,7 @@
 
                 $.ajax({
                     data: data,
-                    url: "/welcome/upload",
+                    url: "/file/upload",
                     method: "POST",
                     context: This,
                     cache: false,
